@@ -42,3 +42,8 @@ Timeslice of thread is 1 second.
                             pNext <----> pPrev
                             
 
+        WaitQTail                                       WaitQHead
+         --------        --------        --------        --------
+        |        |  ->  |        | .... |        |  ->  |        |
+         --------        --------        --------        --------
+                            pNext <----> pPrev
