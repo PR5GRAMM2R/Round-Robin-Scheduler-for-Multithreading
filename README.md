@@ -32,3 +32,17 @@ Timeslice of thread is 1 second.
 > Suspend threads in order and Resume threads in order after stopping all threads.
 
   
+
+## Round Robin Schedular
+
+        ReadyQTail                                          ReadyQHead
+        
+         --------        --------        --------        ----------------
+         
+        |        |  ->  |        | .... |        |  ->  | Being Executed |
+        
+         --------        --------        --------        ----------------
+         
+                            pNext <----> pPrev
+                            
+
