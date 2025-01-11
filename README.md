@@ -36,13 +36,9 @@ Timeslice of thread is 1 second.
 ## Round Robin Schedular
 
         ReadyQTail                                          ReadyQHead
-        
          --------        --------        --------        ----------------
-         
         |        |  ->  |        | .... |        |  ->  | Being Executed |
-        
          --------        --------        --------        ----------------
-         
                             pNext <----> pPrev
                             
 
